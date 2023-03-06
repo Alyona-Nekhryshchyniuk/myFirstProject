@@ -1,5 +1,3 @@
-// @import './common';
-// @import './example';
 *,
 *::before,
 *::after {
@@ -111,6 +109,10 @@ body {
   font-size: 20px;
   line-height: 29px;
   color: #000000;
+}
+
+nav .focused {
+  color: #ff6464;
 }
 
 @media (max-width: 376px) {
@@ -415,12 +417,7 @@ pre {
   margin-top: 17px;
   margin-bottom: 11px;
 }
-/* 
-h5 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-} */
+
 .post-summary {
   font-weight: 400;
   font-size: 16px;
